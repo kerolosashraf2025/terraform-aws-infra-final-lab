@@ -59,15 +59,16 @@ terraform-aws-infra/
 ## 📸 **Screenshots**
 
 
-(screenshots/1.jpg)
-
- 
-(screenshots/2.jpg)
+![VPC](screenshots/1.jpg)
 
 
-(screenshots/3.jpg)
+![EC2](screenshots/2.jpg)
 
-(screenshots/4.jpg)
+![NGINX](screenshots/3.jpg)
+
+![NGINX](screenshots/8.jpg)
+
+![NGINX](screenshots/9.jpg)
 
 
 ---
@@ -78,7 +79,5 @@ terraform-aws-infra/
 
 ---
 
-##  **Instructor**
-
+## 👨‍🏫 Instructor  
 **Eng. Omar Higgy**
-
