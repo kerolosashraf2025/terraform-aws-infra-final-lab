@@ -82,6 +82,3 @@ terraform-aws-infra/
 
 **Eng. Omar Higgy**
 
-
-
-# 🎉 لو عايز كمان أجهّز README نسخة عربية أو LinkedIn Post جاهز — قولّي.
