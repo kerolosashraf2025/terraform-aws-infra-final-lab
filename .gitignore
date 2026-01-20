@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive
+*.pem
+*.key
+
+# Local configs
+*.tfvars
+*.tfvars.json
+input.json
+.terraform/ 
+*.tfstate 
+*.tfstate.backup 
+*.pem 
