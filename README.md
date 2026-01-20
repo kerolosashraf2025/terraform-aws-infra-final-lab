@@ -1,7 +1,8 @@
-# 🚀 Terraform AWS Infrastructure – Final Lab
 
-This project contains a complete AWS Infrastructure automated using **Terraform**, as required in the final lab.  
-It deploys an EC2 instance inside an existing VPC, installs **NGINX automatically**, and outputs the public IP.
+
+## 🚀 Terraform AWS Infrastructure – Final Lab
+
+This project provisions a complete AWS infrastructure using **Terraform**, including VPC import, subnet creation, security group setup, EC2 deployment, and automated NGINX installation using user data.
 
 ---
 
@@ -9,50 +10,78 @@ It deploys an EC2 instance inside an existing VPC, installs **NGINX automaticall
 
 The Terraform configuration performs the following:
 
-- Import and use an **existing VPC**
-- Create a **Public Subnet**
-- Create a **Security Group** allowing:
-  - HTTP (80)
-  - HTTPS (443)
-  - SSH (22)
-- Launch **Ubuntu 24.04 Free Tier EC2 instance**
-- Install **NGINX automatically** via user-data script
-- Output the **EC2 Public IP**
-- Upload screenshots in `/screenshots` folder
+* Import and use an **existing VPC**
+* Create a **Public Subnet**
+* Create a **Security Group** allowing:
+
+  * HTTP (80)
+  * HTTPS (443)
+  * SSH (22)
+* Launch **Ubuntu 24.04 Free Tier EC2 instance**
+* Install **NGINX automatically** using a user-data script
+* Output the **EC2 Public IP**
+* Upload screenshots in the `/screenshots/` folder
 
 ---
 
 ## 📁 **Project Structure**
 
+```
 terraform-aws-infra/
-│── main.tf
-│── variables.tf
-│── outputs.tf
-│── provider.tf
-│── backend.tf
-│── input.json
-│── README.md
-│── screenshots/
-│ └── *.png
-│── modules/
-├── ec2/
-│ ├── main.tf
-│ ├── variables.tf
-│ └── outputs.tf
-└── subnet/
-├── main.tf
-├── variables.tf
-└── outputs.tf
+│   main.tf
+│   variables.tf
+│   outputs.tf
+│   provider.tf
+│   backend.tf
+│   input.json
+│   README.md
+│   .gitignore
+│
+├── modules/
+│   ├── ec2/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   │
+│   └── subnet/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+│
+└── screenshots/
+    ├── vpc.png
+    ├── ec2.png
+    └── nginx.png
+```
+
+---
+
+## 📸 **Screenshots**
+
+### 🟦 VPC Imported
+
+![VPC](screenshots/vpc.png)
+
+### 🟩 EC2 Instance Created
+
+![EC2](screenshots/ec2.png)
+
+### 🟥 NGINX Running Successfully
+
+![NGINX](screenshots/nginx.png)
+
+---
+
+##  **Author**
+
+**Kerolos Ashraf**
+
+---
+
+##  **Instructor**
+
+**Eng. Omar Higgy**
 
 
-📸 Screenshots
 
-Screenshots for each step (Terraform apply, EC2 creation, NGINX working, etc.)
-are included in the screenshots/ directory.
-
-👤 Author
-
-Kerolos Ashraf
-
-🤝 Instructor
-Eng. Omar Higgy
+# 🎉 لو عايز كمان أجهّز README نسخة عربية أو LinkedIn Post جاهز — قولّي.
