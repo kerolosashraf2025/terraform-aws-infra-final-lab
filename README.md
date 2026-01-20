@@ -85,14 +85,7 @@ terraform validate
 
 terraform apply -auto-approve
 
-```
 
-### 4️⃣ Destroy resources (optional)
-```
-
-terraform destroy -auto-approve
-
-```
 
 ---
 
