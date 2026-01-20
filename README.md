@@ -58,16 +58,16 @@ terraform-aws-infra/
 
 ## 📸 **Screenshots**
 
-## 📸 Screenshots
 
-
-![VPC](screenshots/1.jpg)
+(screenshots/1.jpg)
 
  
-![EC2](screenshots/2.jpg)
+(screenshots/2.jpg)
 
 
-![NGINX](screenshots/3.jpg)
+(screenshots/3.jpg)
+
+(screenshots/4.jpg)
 
 
 ---
