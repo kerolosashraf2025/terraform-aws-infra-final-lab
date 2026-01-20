@@ -108,11 +108,3 @@ terraform destroy -auto-approve
 
 ---
 
-## 📝 License
-
-This project is licensed under the **MIT License**.
-
-```
-
-
-قولّي وأنا أعمله لك فورًا 🔥
