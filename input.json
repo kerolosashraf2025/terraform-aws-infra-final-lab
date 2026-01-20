@@ -1,0 +1,6 @@
+{
+  "vpc_id": "vpc-0b0025c4370203f8b",
+  "instance_type": "t3.micro",
+  "ami_id": "ami-049442a6cf8319180",
+  "key_name": "mykey"
+}

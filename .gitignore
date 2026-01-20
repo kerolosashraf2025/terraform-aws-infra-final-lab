@@ -1,19 +1,7 @@
-# Terraform
 .terraform/
+**/.terraform/*
 *.tfstate
-*.tfstate.*
-crash.log
-crash.*.log
-
-# Sensitive
+*.tfstate.backup
 *.pem
-*.key
-
-# Local configs
-*.tfvars
-*.tfvars.json
-input.json
-.terraform/ 
-*.tfstate 
-*.tfstate.backup 
-*.pem 
+terraform.lock.hcl
+**/terraform.lock.hcl
