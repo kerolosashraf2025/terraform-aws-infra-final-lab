@@ -61,9 +61,6 @@ terraform-aws-infra/
 
 ![VPC](screenshots/1.jpg)
 
-
-![EC2](screenshots/2.jpg)
-
 ![NGINX](screenshots/3.jpg)
 
 ![NGINX](screenshots/8.jpg)
