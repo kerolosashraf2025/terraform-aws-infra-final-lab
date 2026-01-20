@@ -58,17 +58,17 @@ terraform-aws-infra/
 
 ## 📸 **Screenshots**
 
-### 🟦 VPC Imported
+## 📸 Screenshots
 
-![VPC](screenshots/vpc.png)
 
-### 🟩 EC2 Instance Created
+![VPC](screenshots/1.jpg)
 
-![EC2](screenshots/ec2.png)
+ 
+![EC2](screenshots/2.jpg)
 
-### 🟥 NGINX Running Successfully
 
-![NGINX](screenshots/nginx.png)
+![NGINX](screenshots/3.jpg)
+
 
 ---
 
