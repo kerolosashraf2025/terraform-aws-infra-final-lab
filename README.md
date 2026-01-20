@@ -1,63 +1,57 @@
+# 🚀 Terraform AWS Infrastructure – Final Lab
 
-
-## 🚀 Terraform AWS Infrastructure – Final Lab
-
-This project provisions a complete AWS infrastructure using **Terraform**, including VPC import, subnet creation, security group setup, EC2 deployment, and automated NGINX installation using user data.
+This project contains a complete AWS Infrastructure automated using **Terraform**, as required in the final lab.  
+It deploys an **EC2 instance** inside an **existing VPC**, creates a **public subnet**, provisions a **Security Group**, installs **NGINX automatically**, and outputs the **public IP**.
 
 ---
 
-## 📌 **Project Overview**
+## 📘 Project Overview
 
 The Terraform configuration performs the following:
 
-* Import and use an **existing VPC**
-* Create a **Public Subnet**
-* Create a **Security Group** allowing:
-
-  * HTTP (80)
-  * HTTPS (443)
-  * SSH (22)
-* Launch **Ubuntu 24.04 Free Tier EC2 instance**
-* Install **NGINX automatically** using a user-data script
-* Output the **EC2 Public IP**
-* Upload screenshots in the `/screenshots/` folder
+- Import and use an **existing VPC**
+- Create a **Public Subnet**
+- Create a **Security Group** allowing:
+  - HTTP (80)
+  - HTTPS (443)
+  - SSH (22)
+- Launch **Ubuntu 24.04 Free Tier EC2 instance**
+- Install **NGINX automatically** via user-data script
+- Output the **EC2 Public IP**
+- Upload proof screenshots in the `/screenshots` folder
 
 ---
 
-## 📁 **Project Structure**
+## 📂 Project Structure
 
 ```
-terraform-aws-infra/
-│   main.tf
-│   variables.tf
-│   outputs.tf
-│   provider.tf
-│   backend.tf
-│   input.json
-│   README.md
-│   .gitignore
-│
-├── modules/
-│   ├── ec2/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   │
-│   └── subnet/
-│       ├── main.tf
-│       ├── variables.tf
-│       └── outputs.tf
-│
-└── screenshots/
-    ├── vpc.png
-    ├── ec2.png
-    └── nginx.png
+
+terraform-aws-infra-final-lab/
+│── backend.tf
+│── provider.tf
+│── variables.tf
+│── outputs.tf
+│── main.tf
+│── input.json
+│── screenshots/
+│    ├── 1.jpg
+│    ├── 2.jpg
+│    ├── 3.jpg
+│── modules/
+├── ec2/
+│    ├── main.tf
+│    ├── variables.tf
+│    ├── outputs.tf
+├── subnet/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+
 ```
 
 ---
 
-## 📸 **Screenshots**
-
+## 📸 Screenshots
 
 ![VPC](screenshots/1.jpg)
 
@@ -70,11 +64,55 @@ terraform-aws-infra/
 
 ---
 
-##  **Author**
+## 🧪 How to Use
+
+### 1️⃣ Initialize Terraform
+```
+
+terraform init
+
+```
+
+### 2️⃣ Validate configuration
+```
+
+terraform validate
+
+```
+
+### 3️⃣ Deploy infrastructure
+```
+
+terraform apply -auto-approve
+
+```
+
+### 4️⃣ Destroy resources (optional)
+```
+
+terraform destroy -auto-approve
+
+```
+
+---
+
+## 👨‍💻 Author
 
 **Kerolos Ashraf**
 
 ---
 
-## 👨‍🏫 Instructor  
+## 👨‍🏫 Instructor
+
 **Eng. Omar Higgy**
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+
+```
+
+
+قولّي وأنا أعمله لك فورًا 🔥
